@@ -1,0 +1,40 @@
+function getIndexToIns(arr, num) {
+  //sort the array ascending
+  arr.sort( (a, b) => a - b);
+  let result = 0;
+  
+  //number is index 0 if the array is empty or num is smaller than first index number
+  if (arr === [] || num <= arr[1]) {
+    result = 0;
+  }
+
+  //number is last index(plus 1) if the number is bigger than the last index number
+  if ( num > arr[arr.length - 1]) {
+    result = arr.length;
+  }
+
+  //look for the index for all the other cases (not start/end index)
+  //once the res is <= 0 we know that this is the index at which our number goes
+  for(let i = 0; i < arr.length; i++)  {
+    let res = num - arr[i];
+     
+    if(res <= 0) { 
+     return i;
+    }
+  }
+  return result;
+}
+
+getIndexToIns([40, 60], 50);
+
+
+//elegant solution by freecodecamp
+//add the number to the array
+function getIndexToIns(arr, num) {
+  return arr
+	.concat(num)
+	.sort((a, b) => a - b)
+	.indexOf(num);
+}
+
+getIndexToIns([1, 3, 4], 2);
