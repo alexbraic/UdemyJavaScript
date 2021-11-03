@@ -8,3 +8,4 @@ code line
 14      multi-line strings
 26      if..eles statements
 44      type conversion and type coersion
+70      falsy vs truthy values

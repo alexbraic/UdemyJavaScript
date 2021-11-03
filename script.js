@@ -66,3 +66,7 @@
 // n -= 1;
 // console.log(n); //result == 10
 
+
+// falsy values : 0, '', undefined, null, NaN
+//      else truthy values
+// converted to false when converted to a boolean
