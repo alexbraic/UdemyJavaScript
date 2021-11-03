@@ -1,5 +1,7 @@
 console.log('Hello world, you are great');
 
+
+// a function that reverses a value
 function reversedString(value) {
     let reversedValue = "";
 
@@ -10,7 +12,5 @@ function reversedString(value) {
     return reversedValue;
 }
 
+console.log(reversedString(1353));
 
-
-
-console.log(reversedString("Reverse me"));
