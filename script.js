@@ -70,3 +70,26 @@
 // falsy values : 0, '', undefined, null, NaN
 //      else truthy values
 // converted to false when converted to a boolean
+
+
+// logical operators
+// const hasDriversLicence = true;
+// const hasGoodVision = true;
+
+// const shouldDrive = hasDriversLicence && hasGoodVision;
+
+// if (hasDriversLicence && hasGoodVision) {
+//     console.log('Sarah is able to drive!')
+// } else {
+//     console.log('Someone else should drive!')
+// }
+
+// const isTired = false;
+
+// if (hasDriversLicence && hasGoodVision && !isTired) {
+//     console.log('Sarah is able to drive!');
+// } else {
+//     console.log('Someone else should drive!');
+// }
+
+
