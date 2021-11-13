@@ -34,7 +34,7 @@ console.log(`The Koalas have a ${avgKoaPoints} point average.`)
 // 2. Comapre scores and declare winner
 if (avgDolPoints > avgKoaPoints) {
     console.log('And the Dolphins win the trophy!!');
-} else  if (avgDolPoints < avgKoaPoints) {
+} else if (avgDolPoints < avgKoaPoints) {
     console.log('And the Koalas win the trophy!!');
 } else {
     console.log('It\'s a draw ladies and gentlemen!');
