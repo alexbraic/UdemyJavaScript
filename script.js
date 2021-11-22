@@ -120,3 +120,11 @@
 //         console.log('Not a valid day');
 // }
 
+// ternary operator
+
+// const age = 15;
+// age >= 18 ? console.log('I like to drink wine 🍷') : console.log('No wine for me 😒');
+
+// const drink = age >= 18 ? 'wine 🍷' : 'water 💧';
+// console.log(`I like to drink ${drink}`);
+
