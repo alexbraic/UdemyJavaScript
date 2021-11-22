@@ -9,3 +9,5 @@ code line
 26      if..eles statements
 44      type conversion and type coersion
 70      falsy vs truthy values
+96      switch statements
+123     ternary operator
