@@ -11,3 +11,4 @@ code line
 70      falsy vs truthy values
 96      switch statements
 123     ternary operator
+131     functions
