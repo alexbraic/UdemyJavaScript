@@ -148,3 +148,36 @@
 // console.log(appleOrangeJuice);
 
 //DRY Don't Repeat Yourself
+
+// //function declaration
+// function calcAge1(birthYear) {
+//     return 2037 - birthYear;
+// };
+
+// const myAge = calcAge1(1986);
+
+// //function expression
+// //annonimous function
+// const calcAge2 = function (birthYear) {
+//     return 2037 - birthYear;
+// }
+// const age2 = calcAge2(1986);
+
+// console.log(myAge, age2);
+
+// //arrow functions - still a function expression
+// //implicit return. Good for 1 liner functions
+// const calcAge3 = birthYear => 2037 - birthYear;
+// const age3 = calcAge3(1986);
+// console.log(age3);
+
+// const yearsUntilRetire = (birthYear, firstName) => {
+//     const age = 2037 - birthYear;
+//     const retirement = 65 - age;
+//     // return retirement;
+//     return `${firstName} retires in ${retirement} years.`
+// }
+
+// console.log(yearsUntilRetire(1986, 'Alex'));
+// console.log(yearsUntilRetire(1991, 'Bob'));
+
