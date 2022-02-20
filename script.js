@@ -181,3 +181,38 @@
 // console.log(yearsUntilRetire(1986, 'Alex'));
 // console.log(yearsUntilRetire(1991, 'Bob'));
 
+// //Functions calling other functions
+
+// function cutFruitPieces(fruit) {
+//     return fruit * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//         const applePieces = cutFruitPieces(apples);
+//         const orangePieces = cutFruitPieces(oranges);
+//         const juice = `Juice with ${applePieces} pieces of apple and ${orangePieces} orange pieces.`;
+//         return juice;
+//     };
+
+// console.log(fruitProcessor(2, 3)); 
+
+// // 37. Review
+// const calcAge = function (birthYear) {
+//     return age = 2037 - birthYear;
+// }
+// function yearsUntilRetire (birthYear, firstName) {
+//         const age = calcAge(birthYear);
+//         const retirement = 65 - age;
+        
+//         if(retirement > 0) {
+//             console.log(`${firstName} retires in ${retirement} years.`);
+//             return retirement;
+//         }
+//         else {
+//             result = console.log(`${firstName} has already retired.`);
+//             return result;
+//         }
+//     }
+// console.log(yearsUntilRetire(1950, 'Alex'));
+
+
