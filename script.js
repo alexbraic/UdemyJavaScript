@@ -256,3 +256,36 @@
 // const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[2]), calcAge(years[years.length - 1])];
 
 // console.log(ages);
+
+// // 40.  Basic Array Operations
+
+// const friends = ['Michael', 'Steven', 'Peter'];
+// // add elements
+// const newLength = friends.push('Jay');
+// console.log(friends);
+// console.log(newLength);
+
+// friends.unshift('George'); //add George at the start
+// console.log(friends);
+// // remove elements
+// friends. pop();
+// console.log(friends); //last element removed
+// const popped = friends.pop();
+// console.log(popped);
+// console.log(friends);
+// friends.shift();
+// console.log(friends);
+
+// console.log(friends.indexOf('Steven'));
+// console.log(friends.indexOf('Bob'));
+
+// friends.push(23);
+// console.log(friends.includes('Steven'));
+// console.log(friends.includes('Bob'));
+// console.log(friends.includes(23));
+
+// // .includes as a conditional
+// if (friends.includes('Steven')) {
+//     console.log('You have a friend called Steven')
+// }
+
