@@ -289,3 +289,79 @@
 //     console.log('You have a friend called Steven')
 // }
 
+
+// // Objects
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmetmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven']
+// }
+
+// console.log(jonas.lastName);
+// console.log(jonas['lastName']);
+
+// // computed property name
+// const nameKey = 'Name';
+// console.log(jonas['first' + nameKey]);
+// console.log(jonas['last' + nameKey]);
+// const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+
+// console.log(jonas[interestedIn]);
+
+// if(jonas[interestedIn]) {
+//     console.log(jonas[interestedIn]);
+// } else {
+//     prompt('Wrong request! Choose between firstName, lastName, age, job, and friends');
+// }
+
+// jonas.location = 'Portugal';
+// jonas['twitter'] = '@jonassssss';
+// console.log(jonas);
+
+// // Challenge
+// // "Jonas has 3 friends, and his best friend is called Michael"
+
+// console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+
+// // a function that is attached to an object is called a method
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmetmann',
+//     birthYear: 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hsDriversLicence: true,
+
+//     // calcAge: function(birthYear) {
+//     //     return 2037 - birthYear;
+//     // }
+
+//     // 'this' keyword = the object on which the method is called
+//     // or it equals to the object calling the method
+//     // calcAge: function() {
+//     //     return 2037 - this.birthYear;
+//     // }
+
+//     calcAge: function() {
+//         this.age =  2037 - this.birthYear;
+//         return this.age;
+//     },
+//     // challenge method
+//     getSummary: function() {
+//        this.summary =  `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hsDriversLicence ? "a" : "no"} driver's license.`
+//         return this.summary;
+//     }
+// }
+// // // The calcAge gets calculated first, so the other calls jst call the this.age variable
+// // console.log(jonas.calcAge());
+// // console.log(jonas.age);
+// // console.log(jonas.age);
+// // console.log(jonas.age);
+
+// // Challenge
+// // "Jonas is a 46-year old teacher, and he has a driver's licence."
+// console.log(jonas.getSummary());
+

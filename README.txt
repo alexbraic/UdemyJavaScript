@@ -12,3 +12,4 @@ code line
 96      switch statements
 123     ternary operator
 131     functions
+293     objects
