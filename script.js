@@ -333,7 +333,7 @@
 //     birthYear: 1991,
 //     job: 'teacher',
 //     friends: ['Michael', 'Peter', 'Steven'],
-//     hsDriversLicence: true,
+//     hasDriversLicence: true,
 
 //     // calcAge: function(birthYear) {
 //     //     return 2037 - birthYear;
@@ -351,7 +351,7 @@
 //     },
 //     // challenge method
 //     getSummary: function() {
-//        this.summary =  `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hsDriversLicence ? "a" : "no"} driver's license.`
+//        this.summary =  `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicence ? "a" : "no"} driver's license.`
 //         return this.summary;
 //     }
 // }
