@@ -24,4 +24,4 @@ const john = {
     }
 }
 
-console.log(`${john.firstName}'s BMI (${john.calcBMI().toFixed(2)}) is higher than ${mark.firstName}' (${mark.calcBMI().toFixed(2)})!`);
+console.log(`${mark.firstName} ${mark.lastName}'s BMI (${mark.calcBMI().toFixed(2)}) is higher than ${john.firstName} ${john.lastName}'s (${john.calcBMI().toFixed(2)})!`);
